@@ -1,0 +1,50 @@
+Server Management for VpnServer
+ mkdir Cloud_Computing_Essential_project
+Directory Creation & Organization
+ mkdir vpn_configs
+ cd vpn_configs
+ mkdir OpenVpn
+ mkdir PptpVpn
+ mkdir DoubleVpn
+ mkdir SSLVpn
+ mkdir ipsec
+Move and Rename Files
+ touch
+ cp -r vpn_configs/OpenVpn/* vpn_backup/
+ cp -r vpn_configs/PptpVpn/* vpn_backup/
+ cp -r vpn_configs/DoublrVpn/* vpn_backup/
+ cp -r vpn_configs/SSLVpn/* vpn_backup/
+ cp -r vpn_configs/ipsecVpn/* vpn_backup/
+Navigating and listing Files
+ cd vpn_config
+Backup Files
+ cd vpn_backup
+ ls -l
+Creating A Script for File Generation
+ touch Project.sh
+ nano Project.sh
+ touch client_{1..20}
+ ls -l
+Exploring File History
+ history 20
+System Monitoring
+ uptime
+ du
+ df
+ ps
+Ping Test
+  ping google.com
+Search For specific Files or Verification
+ grep -r server.conf
+ Create a Script For Directory Cleanup
+ nano delete_empty_dirs.sh
+ chmod +x delete_empty_dirs.sh
+./delete_empty_dirs.sh
+File Sorting & Management
+ls -l | sort -t. -k2
+ ls -las
+ File Type Identification
+ cd vpn_congifs
+ ls -all
+ File Compression and Archive
+ tar -cf vpn_configs.tar /home/administrator/MIRUTHULA/Cloud_Computing_Essential_Project/
